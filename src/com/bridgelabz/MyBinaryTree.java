@@ -31,3 +31,4 @@ public class MyBinaryTree<K extends Comparable<K>> {
         return current == null ? 0 : 1 + this. getSizeRecursive(current.left) + this.getSizeRecursive(current.right);
     }
 }
+
